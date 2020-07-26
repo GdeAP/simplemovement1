@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 8f;
-    public float gravity = -30f; // 9.81f, the average gravity but honestly in Unity, it will jump to high
+    public float gravity = -30f; // 9.81f, the average gravity but honestly in Unity, it will jump higher, so idk what should I do..
     public float jumpHeight = 2f;
 
     public Transform groundCheck;
